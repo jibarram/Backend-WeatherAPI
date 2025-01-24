@@ -74,8 +74,12 @@ GET http://localhost:3000/weather/London?unitGroup=metric
 ```json
 {
   "city": "London, England, United Kingdom",
-  "temperature": "15°C",
+  "currentTemperature": "9°C",
+  "minTemperature": "5.9°C",
+  "maxTemperature": "11.4°C",
   "description": "Partly cloudy",
   "humidity": "70%"
 }
 ```
+
+*Note: Temperatures represent data for the current day and may vary based on when the request is made.*
